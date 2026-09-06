@@ -1,0 +1,10 @@
+Place the MobileFaceNet TensorFlow Lite model in this directory with this exact filename:
+
+mobile_face_net.tflite
+
+Expected model interface:
+- Input: [1, H, W, 3], float32 RGB normalized with (value - 127.5) / 128
+- Output: [1, embeddingSize], float32 embedding (commonly 192 dimensions)
+
+Do not commit a model unless its licence permits redistribution. Record the source, licence,
+input size, output size and SHA-256 checksum in README.md.
